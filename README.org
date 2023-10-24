@@ -43,6 +43,7 @@ Before exporting image you need to set it to indexed mode.
   
   And choose needed color palette from left menu (folder icon). \\
   You can set ~Palette Size~ from the menu (burger icon right to the folder icon).
+  
   [[file:images/aseprite_palette.png]]
   
 Then export image as ~.png~ file.
