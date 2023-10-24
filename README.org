@@ -15,7 +15,7 @@ Just name your icon as the folder name\\
 E.g. folder named ~NDS~ would have ~NDS.png~ named icon.
 
 To use custom back button icon you should name file like ~...png~ \\
-(Yes, triple dot, two for folder name [[1][[1]​]] and other for extension delimiter [[2][[2]​]])
+(Yes, triple dot, two for folder name [fn:1] and other for extension delimiter [fn:2])
 
 * How to create new icons
 Download either [[https://www.gimp.org/downloads/][GIMP]] (free) or [[https://www.aseprite.org/download/][Aseprite]] (paid for prebuild binaries but free if you can compile yourself).
@@ -85,5 +85,5 @@ Feel free to open issue if you want to ask a question for now. \\
 Later i either leave better way to contact me or make this readme better.
 
 * References
-<<1>>. [[https://www.ibm.com/docs/en/zos/2.3.0?topic=names-dot-notation]]
-<<2>>. https://www.linfo.org/dot.html
+[fn:1] [[https://www.ibm.com/docs/en/zos/2.3.0?topic=names-dot-notation]]
+[fn:2] https://www.linfo.org/dot.html
