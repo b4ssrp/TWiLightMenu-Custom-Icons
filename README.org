@@ -37,11 +37,13 @@ Before exporting image you need to set it to indexed mode.
   Either ~Generate optimum palette~ with ~Maximum number of colors~ set to \\
   or use custom palette with max 16 colors.
 ** In Aseprite
-    
-  ~Sprite > Color Mode > Indexed~
+[[file:images/aseprite_indexed.png]]
+
+~Sprite > Color Mode > Indexed~
   
   And choose needed color palette from left menu (folder icon). \\
   You can set ~Palette Size~ from the menu (burger icon right to the folder icon).
+  [[file:images/aseprite_palette.png]]
   
 Then export image as ~.png~ file.
 
