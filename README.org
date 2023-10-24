@@ -31,6 +31,7 @@ Also you can make corner pixels transparent to make icon look nicer.
 
 Before exporting image you need to set it to indexed mode.
 ** In GIMP
+[[file:images/gimp_indexed.jpg]]
     
   ~Image > Mode > Indexed~
   
@@ -41,10 +42,14 @@ Before exporting image you need to set it to indexed mode.
 
 ~Sprite > Color Mode > Indexed~
   
-  And choose needed color palette from left menu (folder icon). \\
-  You can set ~Palette Size~ from the menu (burger icon right to the folder icon).
-  
+  And choose needed color palette from left menu (folder icon).
+
   [[file:images/aseprite_palette.png]]
+  
+  You can set ~Palette Size~ from the menu (burger icon right to the folder icon).
+
+  [[file:images/aseprite_palette_size.png]]
+
   
 Then export image as ~.png~ file.
 
