@@ -1,11 +1,12 @@
 #+STARTUP: indent
+#+OPTIONS: line-break:t
 
 * Custom Icons for Twilight Menu
 
 * How to install
-Download needed icons and place them into `sd:/_nds/TWiLightMenu/icons/`\\
-Icons should have exact rom name with extension included.\\
-E.g. rom file named `gbagame.gba` should have `gbagame.gba.png` named icon placed into `icons` folder.
+Download needed icons and place them into `sd:/_nds/TWiLightMenu/icons/~ \\
+Icons should have exact rom name with extension included. \\
+E.g. rom file named ~gbagame.gba~ should have ~gbagame.gba.png~ named icon placed into ~icons~ folder.
 
 * How to create new icons
 Download either [[https://www.gimp.org/downloads/][GIMP]](free) or [[https://www.aseprite.org/download/][Aseprite]](paid for prebuild binaries but free if you can compile yourself).
@@ -13,30 +14,30 @@ Download either [[https://www.gimp.org/downloads/][GIMP]](free) or [[https://www
 As of [[https://github.com/DS-Homebrew/TWiLightMenu/pull/1800][this Twilight Menu commit]]:
 #+begin_quote
 The icon is converted from a regular PNG file to the nds banner icon
-format on the fly, so it's subject to the same restrictions. `32x32`,
-and no more than `15 solid colors with 1 transparent color`. As a
+format on the fly, so it's subject to the same restrictions. ~32x32~,
+and no more than ~15 solid colors with 1 transparent color~. As a
 fallback, images of the wrong size display as the unknown icon, while
 images with too many colors will render the extra colors as
 transparent.
 #+end_quote
-So it means icon should be 16 colors maximum.\\
-You can set first color in color palette as transparent.\\
+So it means icon should be 16 colors maximum. \\
+You can set first color in color palette as transparent. \\
 (thats what worked for me at least, both for .png and .bin files)
 
-Edit/draw needed icon how you like it.\\
+Edit/draw needed icon how you like it. \\
 Also you can make corner pixels transparent to make icon look nicer.
 
 Before exporting image you need to set it to indexed mode.
-  - In GIMP\\
-  `Image > Mode > Indexed`\\
-  Either `Generate optimum palette` with `Maximum number of colors` set to 16\\
+  - In GIMP \\
+  ~Image > Mode > Indexed~ \\
+  Either ~Generate optimum palette~ with ~Maximum number of colors~ set to 16 \\
   or use custom palette with max 16 colors.
-  - In Aseprite\\
-  `Sprite > Color Mode > Indexed`\\
-  And choose needed color palette from left menu (folder icon).\\
-  You can set `Palette Size` from the menu (burger icon right to the folder icon).\\
-Then export image as `.png` file.
+  - In Aseprite \\
+  ~Sprite > Color Mode > Indexed~ \\
+  And choose needed color palette from left menu (folder icon). \\
+  You can set ~Palette Size~ from the menu (burger icon right to the folder icon). \\
+Then export image as ~.png~ file.
 
 * P.S.
-Feel free to open issue if you want to ask a question for now.\\
+Feel free to open issue if you want to ask a question for now. \\
 Later i either leave better way to contact me or make this readme better.
