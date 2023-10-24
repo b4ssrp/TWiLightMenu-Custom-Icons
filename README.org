@@ -57,7 +57,7 @@ Then export image as ~.png~ file.
 
 * Icons preview
 
-[[file:icons/Mr. Driller.gbc.png]]
+[[file:icons/Mr.Driller.gbc.png]]
 
 Mr. Driller (GameBoy Color)
 
