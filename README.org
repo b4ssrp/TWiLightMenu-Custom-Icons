@@ -9,6 +9,14 @@ Download needed icons and place them into ~sd:/_nds/TWiLightMenu/icons/~
 Icons should have exact rom name with extension included. \\
 E.g. rom file named ~gbagame.gba~ should have ~gbagame.gba.png~ named icon placed into ~icons~ folder.
 
+You also could use custom icons for folders.
+
+Just name your icon as the folder name\\
+E.g. folder named ~NDS~ would have ~NDS.png~ named icon.
+
+To use custom back button icon you should name file like ~...png~ \\
+(Yes, triple dot, two for folder name [[1][[1]​]] and other for extension delimiter [[2][[2]​]])
+
 * How to create new icons
 Download either [[https://www.gimp.org/downloads/][GIMP]] (free) or [[https://www.aseprite.org/download/][Aseprite]] (paid for prebuild binaries but free if you can compile yourself).
 
@@ -57,14 +65,25 @@ Then export image as ~.png~ file.
 
 * Icons preview
 
-[[file:icons/Mr.Driller.gbc.png]]
++-------------------------------+-----------------------------+
+| Gameboy Color Icons           |                             |
++-------------------------------+-----------------------------+
+| [[file:icons/Mr.Driller.gbc.png]] | [[file:images/wario_sleep.gif]] |
++-------------------------------+-----------------------------+
+| Mr. Driller                   | Wario Land 3                |
++-------------------------------+-----------------------------+
+| Misc Icons                    |                             |
++-------------------------------+-----------------------------+
+| [[file:icons/Back.png]]           | [[file:icons/Cart.png]]         |
++-------------------------------+-----------------------------+
+| Back button                   | NDS Cartridge               |
++-------------------------------+-----------------------------+
 
-Mr. Driller (GameBoy Color)
-
-[[file:images/wario_sleep.gif]]
-
-Wario Land 3 (GameBoy Color)
 
 * P.S.
 Feel free to open issue if you want to ask a question for now. \\
 Later i either leave better way to contact me or make this readme better.
+
+* References
+<<1>>. [[https://www.ibm.com/docs/en/zos/2.3.0?topic=names-dot-notation]]
+<<2>>. https://www.linfo.org/dot.html
