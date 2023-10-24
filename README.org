@@ -30,13 +30,13 @@ Edit/draw needed icon how you like it. \\
 Also you can make corner pixels transparent to make icon look nicer.
 
 Before exporting image you need to set it to indexed mode.
-  - In GIMP
+** In GIMP
     
   ~Image > Mode > Indexed~
   
   Either ~Generate optimum palette~ with ~Maximum number of colors~ set to \\
   or use custom palette with max 16 colors.
-  - In Aseprite
+** In Aseprite
     
   ~Sprite > Color Mode > Indexed~
   
