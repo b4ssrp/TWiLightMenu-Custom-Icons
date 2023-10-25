@@ -84,14 +84,12 @@ So to make animation you need:
 
 * Icons preview
 
-| Gameboy Color Icons           |                             |
-|-------------------------------+-----------------------------|
-| [[file:icons/Mr.Driller.gbc.png]] | [[file:images/wario_sleep.gif]] |
-| Mr. Driller                   | Wario Land 3                |
-| Misc Icons                    |                             |
-|-------------------------------+-----------------------------|
-| [[file:icons/Back.png]]           | [[file:icons/Cart.png]]         |
-| Back button                   | NDS Cartridge               |
+| Gameboy Color Icons           |                             |                             |                             |
+| [[file:icons/Mr.Driller.gbc.png]] | [[file:images/wario_land1.gif]] | [[file:images/wario_land2.gif]] | [[file:images/wario_land3.gif]] |
+| Mr. Driller                   | Wario Land 1                | Wario Land 2                | Wario Land 3                |
+| Misc Icons                    |                             |                             |                             |
+| [[file:icons/Back.png]]           | [[file:icons/Cart.png]]         |                             |                             |
+| Back button                   | NDS Cartridge               |                             |                             |
 
 
 * P.S.
